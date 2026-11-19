@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Белый круг -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,12 A88,88 0 1,1 100,188 A88,88 0 1,1 100,12 Z" />
+
+    <!-- Внешнее кольцо -->
+    <path
+        android:strokeColor="#CFD8DC"
+        android:strokeWidth="4"
+        android:pathData="M100,5 A95,95 0 1,1 100,195 A95,95 0 1,1 100,5 Z" />
+
+    <!-- Основные деления -->
+    <path
+        android:strokeColor="#37474F"
+        android:strokeWidth="3"
+        android:pathData="M100,6 L100,18 M194,100 L182,100 M100,194 L100,182 M6,100 L18,100" />
+
+    <!-- Промежуточные деления -->
+    <path
+        android:strokeColor="#90A4AE"
+        android:strokeWidth="2"
+        android:pathData="M166.5,33.5 L158,42 M166.5,166.5 L158,158 M33.5,166.5 L42,158 M33.5,33.5 L42,42" />
+
+    <!-- Северная метка (красная) и южная (серая) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M100,22 L108,52 L92,52 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M100,178 L108,148 L92,148 Z" />
+
+    <!-- Центр -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M100,96 A4,4 0 1,1 100,104 A4,4 0 1,1 100,96 Z" />
+</vector>

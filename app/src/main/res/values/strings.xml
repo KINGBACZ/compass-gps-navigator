@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компас и навигатор</string>
+    <string name="points_title">Мои точки</string>
+    <string name="add_point">Добавить точку</string>
+    <string name="compass_dial">Циферблат компаса</string>
+    <string name="target_arrow">Стрелка на цель</string>
+
+    <string name="no_target">Точка не выбрана</string>
+    <string name="target_title">Цель: %1$s</string>
+    <string name="distance_m">Расстояние: %1$s</string>
+    <string name="target_selected">Выбрана цель: %1$s</string>
+
+    <string name="waiting_gps">Ожидание сигнала GPS…</string>
+    <string name="gps_disabled">GPS выключен. Нажмите, чтобы включить</string>
+    <string name="no_permission">Нет доступа к геолокации. Нажмите, чтобы открыть настройки</string>
+    <string name="gps_accuracy">GPS работает, точность ±%1$d м</string>
+    <string name="no_compass">На устройстве нет датчика компаса</string>
+
+    <string name="cur_coords">Вы: %1$s</string>
+    <string name="coords_format">%1$.5f, %2$.5f</string>
+
+    <string name="dialog_add_title">Новая точка</string>
+    <string name="default_point_name">Точка %1$d</string>
+    <string name="hint_name">Название</string>
+    <string name="hint_lat">Широта (например 55.75580)</string>
+    <string name="hint_lon">Долгота (например 37.61730)</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_confirm">Удалить точку «%1$s»?</string>
+    <string name="error_fields">Заполните все поля корректно</string>
+    <string name="point_saved">Точка сохранена</string>
+</resources>
